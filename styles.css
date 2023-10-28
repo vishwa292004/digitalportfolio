@@ -1,0 +1,116 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: Times New Roman,Georgia,serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 10px;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 10px;
+    padding: 20px;
+}
+
+/* Header styles */
+header {
+    text-align: left;
+    padding: 20px;
+}
+
+.cover {
+    background-color: black;
+    text-align: center;
+    position: relative;
+    padding: 20px;
+}
+
+.cover-text {
+    font-size: 36px;
+    font-weight: bold;
+    color: #8b0000; /* Dark Red */
+    background-color: black;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 50%;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border: 5px solid #ffd700; /* Golden */
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translate(-50%, -50%);
+}
+
+/* Profile details styles */
+.profile-details {
+    text-align: left;
+    margin-top: 20px;
+    padding-left: 200px; /* Add space for profile photo */
+}
+
+.name {
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.age {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Content section styles */
+.content {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.left, .right {
+    margin-bottom: 20px;
+}
+
+.left h2,
+.right h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.left p,
+.right p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.achievements ul {
+    list-style: none;
+    margin-left: 20px;
+}
+
+.achievements li {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+/* Footer styles */
+footer {
+    text-align: left;
+    background-color: #000;
+    color: #ffffa2;
+    padding: 20px;
+}
